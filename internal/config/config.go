@@ -54,7 +54,7 @@ func Load(ctx context.Context) (*AppConfig, error) {
 		awsCfg.SecretAccessKey = cred.SecretAccessKey
 		log.Printf("[Config] Secrets Manager 로드 완료")
 	} else {
-		log.Printf("[Config] 환경병수에서 자격증명 로드")
+		log.Printf("[Config] 환경변수에서 자격증명 로드")
 		awsCfg.AccessKeyID = os.Getenv("AWS_ACCESS_KEY_ID")
 		awsCfg.SecretAccessKey = os.Getenv("AWS_SECRET_ACCESS_KEY")
 	}
