@@ -1,4 +1,4 @@
-# image server
+# Image API
 
 AWS S3와 DynamoDB를 활용한 이미지 업로드/조회 REST API  
 Go 표준 라이브러리(`net/http`)만 사용하며, EC2IAMRole 기반 인증을 지원합니다.

@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"image-server/internal/model"
-	"image-server/internal/service"
+	"image-api/internal/model"
+	"image-api/internal/service"
 	"io"
 	"log"
 	"net/http"

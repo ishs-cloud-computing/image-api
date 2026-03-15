@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"fmt"
-	"image-server/internal/model"
+	"image-api/internal/model"
 	"log"
 
 	"github.com/aws/aws-sdk-go-v2/aws"

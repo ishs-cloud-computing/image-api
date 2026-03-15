@@ -1,4 +1,4 @@
-module image-server
+module image-api
 
 go 1.25.8
 
