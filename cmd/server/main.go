@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"image-server/internal/config"
-	"image-server/internal/handler"
-	"image-server/internal/service"
+	"image-api/internal/config"
+	"image-api/internal/handler"
+	"image-api/internal/service"
 	"log"
 	"net/http"
 )
